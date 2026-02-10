@@ -7,9 +7,10 @@
   <style>
     body {
       margin: 0;
-      background-color: #faf7f4;
+      background-color: #0b1320;
+color: #e6eaf2;
       font-family: 'Cormorant Garamond', serif;
-      color: #333;
+     
       text-align: center;
       padding: 80px 20px;
     }
@@ -25,7 +26,33 @@
       max-width: 600px;
       margin: auto;
     }
-  </style>
+.mural {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.foto-bloco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto-bloco img {
+  width: 90%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.foto-bloco p {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #cfd8ff;
+  max-width: 320px; 
+}  </style>
 </head>
 
 <body>
@@ -36,5 +63,24 @@
     Um espaço pequeno, mas sincero,<br>
     criado só para guardar o que é nosso.
   </p>
+ <div class="mural">
+
+  <div class="foto-bloco">
+    <img src="foto1.jpg">
+    <p>
+      Esse dia ficou guardado em mim
+      como o céu que não pesa.
+    </p>
+  </div>
+
+  <div class="foto-bloco">
+    <img src="foto2.jpg">
+    <p>
+      Algumas memórias não fazem barulho,
+      mas ficam pra sempre.
+    </p>
+  </div>
+
+</div>
 </body>
 </html>
